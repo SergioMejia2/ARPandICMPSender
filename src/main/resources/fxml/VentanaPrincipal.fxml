@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.mycompany.proyectoredes2.VentanaPrincipalController">
+   <children>
+      <Button fx:id="btnICMP" layoutX="379.0" layoutY="179.0" mnemonicParsing="false" onAction="#OnClickICMP" prefHeight="62.0" prefWidth="145.0" text="ICMP" textFill="#1668ba">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnARP" layoutX="91.0" layoutY="179.0" mnemonicParsing="false" onAction="#OnClickARP" prefHeight="62.0" prefWidth="145.0" text="ARP" textFill="#1668ba">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblTitulo" layoutX="101.0" layoutY="39.0" prefHeight="95.0" prefWidth="419.0" text="Emisor de Tramas" textFill="#180b8d">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
